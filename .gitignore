@@ -1,1 +1,14 @@
+# macOS
 .DS_Store
+
+# STM32CubeIDE build folders
+Debug/
+Release/
+
+# MATLAB / Simulink
+slprj/
+*.asv
+
+# temporary files
+*.log
+*.tmp
