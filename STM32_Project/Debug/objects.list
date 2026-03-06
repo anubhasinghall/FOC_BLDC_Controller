@@ -1,0 +1,5 @@
+"./Src/PMSMController.o"
+"./Src/ert_main.o"
+"./Src/syscalls.o"
+"./Src/sysmem.o"
+"./Startup/startup_stm32f411vetx.o"
