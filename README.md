@@ -62,11 +62,26 @@ PMSM Motor
 * STM32CubeIDE
 * Git & GitHub
 
-## Next Steps
-* Flash firmware to STM32 hardware
-* Verify PWM outputs and sensor inputs
-* Integrate inverter and PMSM motor
-* Perform initial motor spin and controller tuning
+## Hardware Setup
+
+### Pin Connections
+
+See [HARDWARE_CONNECTIONS.md](HARDWARE_CONNECTIONS.md) for detailed mapping.
+
+### Implementation Timeline
+
+- **Days 1-2:** Power supply & gate driver circuit
+- **Days 3-4:** Component testing (without motor)
+- **Days 5-6:** Motor integration & full system test
+- **Day 7:** Demo video & final documentation
+
+### Project Status
+
+- ✅ Simulink FOC model (Clarke-Park transforms, PI control)
+- ✅ C code auto-generated (Embedded Coder)
+- ✅ STM32F411 firmware compiled & flashed
+- 🔄 Hardware assembly in progress
+- ⏳ Motor testing (components arriving 3-5 days)
 
 ## Author
 Anubha Singhal
